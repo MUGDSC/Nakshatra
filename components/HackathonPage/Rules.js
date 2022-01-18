@@ -17,7 +17,7 @@ const Rules = () => {
             <h2>Rules</h2>
             <div className={classes.rules_container}>
                 <ul>
-                    {rules.map(rule => <li> <img src="/list_style.png" alt="list style" />{rule}</li>)}
+                    {rules.map((rule, index) => <li key={index}> <img src="/list_style.png" alt="list style" />{rule}</li>)}
 
                 </ul>
             </div>
