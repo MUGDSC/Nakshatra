@@ -36,7 +36,7 @@ const silverSponsors = [
         link: "https://tezos.com/"
     },
     {
-        image: "GMC.png",
+        image: "gmc.png",
         alt: "GMC",
         link: "https://givemycertificate.com/"
     },
@@ -44,6 +44,14 @@ const silverSponsors = [
         image: "wolfram.png",
         alt: "Wolfram",
         link: "https://www.wolfram.com/language/"
+    }
+]
+
+const bronzeSponsors = [
+    {
+        image: "jetbrains.svg",
+        alt: "Jetbrains",
+        link: "https://www.jetbrains.com/"
     }
 ]
 
@@ -101,11 +109,15 @@ const Sponsors = () => {
                             <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
                         </div>
                         <div className={classes.sponsor_images}>
-                            <a href="#" target="_blank" rel="noopener noreferrer">
-                                <div className={classes.sponsor_images_container}>
-                                    <img src="/sponsors/bronze/jetbrains.svg" alt="Jet Brains Logo" loading='lazy' />
-                                </div>
-                            </a>
+                            {bronzeSponsors.map((item, index) => {
+                                return (
+                                    <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
+                                        <div className={classes.sponsor_images_container}>
+                                            <img src={`/sponsors/silver/${item.image}`} alt={item.alt} loading='lazy' />
+                                        </div>
+                                    </a>
+                                )
+                            })}
 
                         </div>
                     </div>

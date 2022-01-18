@@ -10,11 +10,12 @@ export default function DevFolioBtn() {
         return () => {
             document.body.removeChild(script);
         }
-    }, [])
+    }, []);
+
     return (
         <div
             className="apply-button"
-            data-hackathon-slug="Nakshatra"
+            data-hackathon-slug="nakshatra"
             data-button-theme="dark-inverted"
             style={{ height: "44px", width: " 312px" }}
         >
