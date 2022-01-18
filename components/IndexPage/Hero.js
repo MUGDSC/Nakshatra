@@ -1,6 +1,6 @@
 import classes from './Hero.module.css';
-import DevFolioBtn from '../UI/DevfolioButton';
 import Image from 'next/image';
+import Button from './Button';
 
 const Hero = () => {
     return (
@@ -14,7 +14,9 @@ const Hero = () => {
             <div className={classes.hero_logo}>
                 <Image width={500} height={300} layout="responsive" src="/nakshatra.webp" alt="Nakshatra Logo" />
             </div>
-            <DevFolioBtn />
+            <a href="https://gdsc.community.dev/medi-caps-university-indore/" target="_blank" rel="noopener noreferrer">
+                <Button>Register!</Button>
+            </a>
             <div className={classes.hero_year}>
                 <Image width={200} height={81} layout="responsive" src="/2022.png" alt="2022 Neon Text" />
             </div>

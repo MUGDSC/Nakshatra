@@ -1,0 +1,15 @@
+.btn{
+    background-color: #fff;
+    color:var(--purple);
+    padding: 0.8rem 2rem;
+    font-size: 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+.btn:hover{
+    box-shadow: 0 0 20px var(--purple);
+}

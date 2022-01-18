@@ -114,7 +114,7 @@ const Sponsors = () => {
                                 return (
                                     <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
                                         <div className={classes.sponsor_images_container}>
-                                            <img src={`/sponsors/silver/${item.image}`} alt={item.alt} loading='lazy' />
+                                            <img src={`/sponsors/bronze/${item.image}`} alt={item.alt} loading='lazy' />
                                         </div>
                                     </a>
                                 )

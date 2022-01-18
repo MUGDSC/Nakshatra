@@ -31,6 +31,7 @@ const tracks = [
         title: "Open Innovative",
         subheading: "Every one of us has our own capabilities and strengths. Don’t hesitate to show off your idea.",
         points: [],
+        noBringon: true
     },
 ]
 
@@ -41,7 +42,8 @@ const Tracks = () => {
             <h2>Tracks</h2>
             <div className={classes.tracks_text}>
                 <p>
-
+                    We've included “Bring on(s)” as samples for each category to help you come up with ideas for these tracks. If hackers have a new Bring on (for the particular track), they can move along with it but remember while submitting, choose that specific track.
+                    <p> You must apply to only one of these prize tracks below and there will be only one winner for each track.</p>
                 </p>
             </div>
             <div className={classes.tracks_grid}>
