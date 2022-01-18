@@ -102,6 +102,7 @@ const Sponsors = () => {
                         </div>
                     </div>
 
+                    {/* Bronze SPONSORS */}
                     <div className={classes.sponsor_div}>
                         <div className={classes.star}>
                             <Image width={50} height={50} src="/sponsors/bronze.png" alt="Star" />
