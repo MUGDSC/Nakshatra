@@ -7,10 +7,12 @@ const TrackItemsCard = (props) => {
                 <h3>
                     {props.title}
                 </h3>
-                <div>
+                <div className={classes.card_subheading}>
                     <p className={classes.subheading}>{props.subheading}</p>
-                    {/* <p className={classes.bring}>Bring On...</p> */}
                 </div>
+                {/* <div className={classes.bring}>
+                    <p>Bring On...</p>
+                </div> */}
                 <ul>
                     {props.points.map((item, index) => {
                         return <li key={index}>

@@ -12,7 +12,7 @@
 .tracks_grid{
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding:0 10rem;
     padding-top: 5rem;
