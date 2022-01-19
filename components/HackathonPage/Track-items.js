@@ -5,12 +5,13 @@ const TrackItemsCard = (props) => {
         <>
             <div className={classes.card}>
                 <div className={`${classes.card__side} ${classes["card__side--front"]} ${styles.card}`}>
-                    <div className={styles.image}>
-                        <img src="/tracks/wisdom.png" alt={props.title} />
-                    </div>
                     <div className={styles.title}>
                         <h3>{props.title}</h3>
                     </div>
+                    <div className={styles.image}>
+                        <img src="/tracks/wisdom.png" alt={props.title} />
+                    </div>
+
                     <div className={styles.subheading}>
                         <p>{props.subheading}</p>
                     </div>
