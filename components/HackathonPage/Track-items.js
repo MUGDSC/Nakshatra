@@ -1,25 +1,28 @@
-import classes from './Track-items-card.module.css';
-
+import styles from './Track-items-card.module.css';
+import classes from './flip.module.css';
 const TrackItemsCard = (props) => {
     return (
         <>
             <div className={classes.card}>
-                <h3>
-                    {props.title}
-                </h3>
-                <div className={classes.card_subheading}>
-                    <p className={classes.subheading}>{props.subheading}</p>
+                <div className={`${classes.card__side} ${classes["card__side--front"]} ${styles.card}`}>
+                    <div className={styles.image}>
+                        <img src="/tracks/wisdom.png" alt={props.title} />
+                    </div>
+                    <div className={styles.title}>
+                        <h3>{props.title}</h3>
+                    </div>
+                    <div className={styles.subheading}>
+                        <p>{props.subheading}</p>
+                    </div>
                 </div>
-                {/* <div className={classes.bring}>
-                    <p>Bring On...</p>
-                </div> */}
-                <ul>
-                    {props.points.map((item, index) => {
-                        return <li key={index}>
-                            <p>{item}</p>
-                        </li>
-                    })}
-                </ul>
+                <div className={`${classes.card__side} ${classes["card__side--back"]} ${classes["card__side--back"]}  ${styles.card_back}`}>
+                    <div className={styles.bring}>
+                        <h3>Bring On...</h3>
+                    </div>
+                    <ul>
+                        {props.points.map((point, index) => <li key={index}><p>{point}</p></li>)}
+                    </ul>
+                </div>
             </div>
         </>
     )
