@@ -36,7 +36,7 @@ const FAQS = [
     },
     {
         question: "How can I solve my queries?",
-        answer: "Reach us out at",
+        answer: "Reach us out at mugdsc@gmail.com",
         email: "mugdsc@gmail.com"
     },
     {

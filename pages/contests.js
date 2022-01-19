@@ -39,20 +39,53 @@ export default function Contests() {
 
                     <ContestItem title="CallistO"
                         description="Writing up the technical content is the perfect combination in the field of study, and is a fabulous way of sharing the accumulated knowledge by giving it a theoretical perspective with an interesting touch.  (concluding line missing)"
-                        topics={["Coming Soon", "Coming Soon", "COming Soon"]}
-                        guidelines={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        topics={["Coming Soon"]}
                         image="writing.png"
                         prize1="book1.png"
                         prize2="book2.png"
+                        link="https://forms.gle/Cai3YZhCgPGMU8gbA"
+                        guidelines={[
+                            "The article should not get deviated from the basic theme.",
+                            "Proofread the article before the final submission to avoid any grammatical or spelling errors. You can use the Grammarly extension to avoid such mistakes.",
+                            "The articles which are incorrect or promotional or plagiarized  may lead to rejection",
+                            "The article should be well-formatted such as proper use of headings, bullet points etc.",
+                            "Attaching images is not mandatory but appreciated.",
+                            "If image is attached make sure it is license, If you have taken free images from the internet, mention the Url as a reference underneath the image.",
+                            "The blog should have minimum 300 and maximum 1000 words.",
+                            "Late Submissions are strictly not allowed."
+                        ]}
+                        disqualified={null}
+                        date="11th Feb"
+                        time="8:00PM"
                     />
 
-                    <ContestItem title="Poster Making"
+                    <ContestItem title="Kalpana"
                         description="To give the series of competitions an aesthetic touch there will be a poster/digital art competition. Exhibit your creativity through it!!"
-                        topics={["Coming Soon", "Coming Soon", "COming Soon"]}
-                        guidelines={["Coming Soon", "Coming Soon", "COming Soon"]}
+                        topics={["Coming Soon"]}
                         image="poster.png"
                         prize1="poster1.png"
-                        prize2="poster2.png" />
+                        prize2="poster2.png"
+                        link="https://forms.gle/VZ1C6QRMFKSMyqmg6"
+                        guidelines={[
+                            "All artwork submitted must be digital paintings created with illustration software.",
+                            "There is no limitation regarding the software used to create the artworks.",
+                            "All entries must follow the Competition theme.",
+                            "Theme will be revealed on 12th Feb.",
+                            "Participants can only submit one artwork.",
+                            "Only png,jpeg image file formats will be accepted",
+                            "You have to register separately for the digital art competition,  In case you are facing issue you can  ping us on our discord",
+                            "Winner declared by the team will be final and will not be changed"
+                        ]}
+                        disqualified={[
+                            "Manually drawn or painted and scanned into digital format",
+                            "Edited photos, collages or animation.",
+                            "Submitted in previous competitions or used for commercial purposes.",
+                            "Artwork that infringe on intellectual property rights of other individuals.",
+                            "Works containing pornography or promoting violence."
+                        ]}
+                        date="12th Feb"
+                        time="12:30PM"
+                    />
                 </main>
                 <Footer />
             </div>

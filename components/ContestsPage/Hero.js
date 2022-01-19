@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import classes from './Hero.module.css';
 
 const Hero = () => {

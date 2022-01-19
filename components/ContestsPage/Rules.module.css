@@ -14,11 +14,14 @@ margin-left: 2rem;
 }
 .rules_container ul li{
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: 400;
 }
 .rules_container ul li img{
   width: 3rem;
   transform: rotate(0);
+}
+.list_2{
+    list-style:armenian !important;
 }
 
 @media screen and (max-width:900px) {
