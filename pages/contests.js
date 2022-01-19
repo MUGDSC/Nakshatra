@@ -1,4 +1,5 @@
 
+import Head from "next/head"
 import ContestItem from "../components/ContestsPage/ContestItem"
 import Hero from "../components/ContestsPage/Hero"
 import Level from "../components/ContestsPage/Level"
@@ -10,6 +11,9 @@ import StarsBackground from "../components/UI/Stars"
 export default function Contests() {
     return (
         <>
+            <Head>
+                <title>Contests</title>
+            </Head>
             <StarsBackground />
             <div style={{ background: "linear-gradient(180deg, rgba(255, 128, 0, 0.84) 0%, #FF8000 0.01%, rgba(254, 1, 153, 0.33) 100%)" }}>
                 <Navbar />

@@ -37,7 +37,7 @@ const Navbar = ({ setPageTitle }) => {
                     </div>
                 </a></Link>
             <MobileNav setPageTitle={setPageTitle} />
-            {/* <nav className={classes.navbar}>
+            <nav className={classes.navbar}>
                 <ul>
                     <li><Link href="/#Home" >Home</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('About – Nakshatra')}><Link href="/hackathon" >Hackathon</Link></li>
@@ -47,7 +47,7 @@ const Navbar = ({ setPageTitle }) => {
                     <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="/team">Team</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="#Contact">Contact</Link></li>
                 </ul>
-            </nav> */}
+            </nav>
         </header>
     )
 }

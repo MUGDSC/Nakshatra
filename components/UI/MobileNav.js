@@ -19,7 +19,7 @@ const MobileNav = ({ setPageTitle }) => {
                 <div className={classes.nav_list}>
                     <ul>
                         <Fade right duration={500}>
-                            <li><Link href="/#Home" >Nakshatra</Link></li>
+                            <li onClick={() => { setActive(false); vibrate(); setPageTitle && setPageTitle('Nakshatra') }}><Link href="/#Home" >Nakshatra</Link></li>
                             <li onClick={() => { setActive(false); vibrate(); setPageTitle && setPageTitle('About – Nakshatra') }}><Link href="/hackathon" >Hackathon</Link></li>
                             <li onClick={() => { setActive(false); vibrate(); setPageTitle && setPageTitle('Events – Nakshatra') }}><Link href="/contests">Contests</Link></li>
                             <li onClick={() => { setActive(false); vibrate(); setPageTitle && setPageTitle('Events – Nakshatra') }}><Link href="/sessions">Sessions</Link></li>

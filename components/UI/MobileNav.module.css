@@ -7,7 +7,7 @@
     }
 } */
 .nav {
-  display: flex;
+  display: none;
   position: relative;
   justify-content: center;
   align-items: center;

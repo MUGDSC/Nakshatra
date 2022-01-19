@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect } from "react";
 import Judges from "../components/HackathonPage/Judges";
 import Launching from "../components/HackathonPage/Launching";
@@ -13,6 +14,9 @@ const Hackathon = () => {
 
 
     return (<>
+        <Head>
+            <title>Hackathon</title>
+        </Head>
         <StarsBackground />
         <Navbar />
         <main style={{ position: 'relative', zIndex: 2 }}>
