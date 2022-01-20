@@ -32,14 +32,14 @@ const Level = ({ title, date, time, duration, description }) => {
                     <h2>{title}</h2>
                     <p className={classes.subheading}>{description}</p>
                 </div>
-                <div className={classes.detail_bottom}>
+                {/* <div className={classes.detail_bottom}>
                     <p>{date}</p>
                     <p>{time}</p>
                     <p>{duration}</p>
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                     <a href=""><button className={classes.btn}>Register</button></a>
-                </div>
+                </div> */}
             </div>
         </section>
     )

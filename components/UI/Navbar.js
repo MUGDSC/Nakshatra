@@ -43,7 +43,7 @@ const Navbar = ({ setPageTitle }) => {
                     <li onClick={() => setPageTitle && setPageTitle('About – Nakshatra')}><Link href="/hackathon" >Hackathon</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Events – Nakshatra')}><Link href="/contests">Contests</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Events – Nakshatra')}><Link href="/sessions">Sessions</Link></li>
-                    <li onClick={() => setPageTitle && setPageTitle('Timeline – Nakshatra')}><Link href="/#Timeline">Timeline</Link></li>
+                    <li onClick={() => setPageTitle && setPageTitle('Timeline – Nakshatra')}><Link href="/#get-involved">Get Involved</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="/team">Team</Link></li>
                     <li onClick={() => setPageTitle && setPageTitle('Contact – Nakshatra')}><Link href="#Contact">Contact</Link></li>
                 </ul>

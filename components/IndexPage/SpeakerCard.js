@@ -4,7 +4,6 @@ const SpeakerCard = (props) => {
     return (
         <div className={classes.speaker_card}>
             <div className={classes.speaker_img}>
-                {/* <img src="/team/Atharva_Maheshwari.jpg" alt="" /> */}
             </div>
             <div className={classes.speaker_about}>
                 <p className={classes.name}>{props.name}</p>

@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 50px;
     color: black;
     position: relative;
     z-index: 5;
@@ -19,7 +19,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 40px;
     border-bottom-left-radius:0 ;
     border-bottom-right-radius:0 ;
     background: linear-gradient(180deg, #FF8000 0%,hsla(324, 99%, 50%, 0.767) ,rgba(254, 1, 153, 0) 100%);
@@ -30,10 +30,10 @@
     position: absolute;
     z-index: 1;
     background: #fff;
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%,-45%);
 }

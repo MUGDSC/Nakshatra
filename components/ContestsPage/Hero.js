@@ -21,6 +21,7 @@ const Hero = () => {
                     <div className={classes.ufo_img}>
                         <img src="/contests/ufo.png" alt="UFO" />
                     </div>
+
                 </div>
             </div>
         </section>
