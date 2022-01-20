@@ -1,0 +1,15 @@
+
+.wrapper{
+    padding-top: 5rem;
+}
+.image{
+width: 40rem;
+}
+.image_wrapper{
+    display: flex;
+}
+@media screen and (max-width:600px) {
+    .image{
+        width: 30rem;
+    }
+}

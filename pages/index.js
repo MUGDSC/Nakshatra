@@ -13,6 +13,7 @@ import { useState } from "react"
 import Contact from "../components/IndexPage/Contact"
 import Footer from "../components/IndexPage/Footer"
 import StarsBackground from "../components/UI/Stars"
+import CommunityPartners from "../components/IndexPage/CommunityPartners"
 
 export default function Home() {
   const [pageTitle, setPageTitle] = useState('Nakshatra');
@@ -33,6 +34,7 @@ export default function Home() {
         <Speakers />
         <Timeline />
         <Involved />
+        <CommunityPartners />
         <Sponsors />
         <FAQ />
         <Contact />
