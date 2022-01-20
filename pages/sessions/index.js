@@ -6,6 +6,60 @@ import SessionItem from "../../components/SessionPage/SessionItem";
 import Footer from '../../components/UI/Footer';
 import StarsBackground from '../../components/UI/Stars';
 
+const sessoins = [
+    {
+        heading: "OpStar",
+        speaker: { name: 'Coming Soon...', role1: 'Coming Soon...', role2: "Coming Soon..." },
+        description: "Development and Operations are the two words that combine to form DevOps. So get ready to remove the oopsies from your development and become a devOPSTAR.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM"
+    },
+    {
+        heading: "Stellar",
+        speaker: { name: 'Vaishnavi Dwivedi', role1: 'Founder & Creator', role2: "MichiSpotlight" },
+        description: "To glorify the experience of a product by giving it an aesthetic touch is all about the UI. So make your hardwok as appealing as STELLAR in the galaxy.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM",
+        image: 'vaishnavi_dwivedi.jfif'
+    },
+    {
+        heading: "Phoenix",
+        speaker: { name: 'Manvi Tyagi', role1: 'SWE @ Twitter', role2: "Founder @ Girl Code It" },
+        description: "Nakshatra presents this section specifically for the girl power to shine. Know it all as how women have a universe of unknown opportunities, fields and jobs where women are encouraged and aware of how women can shine and go as high as the moon.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM",
+        image: 'manvi_tyagi.jpg'
+    },
+    {
+        heading: "Maven",
+        speaker: { name: 'Ankit Mahato', role1: 'Founder', role2: "Real World Python" },
+        description: "One of the two trending topics in today’s world is AI and Ml. It’s all about using human intelligence to create an artificial one. So let’s get ready to know technology of future.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM",
+        image: 'ankit_mahato.jpg'
+    },
+    {
+        heading: "CryptoNova",
+        speaker: { name: 'Coming Soon...', role1: 'Coming Soon...', role2: "Coming Soon..." },
+        description: "As rightfully said, CRYPTO is the future of investments yet is a world of confusions and mistakes, get it all clear and get to know about all the opportunities in this supernova of holdings.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM"
+    },
+    {
+        heading: "Fly me to the moon",
+        speaker: { name: 'Coming Soon...', role1: 'Coming Soon...', role2: "Coming Soon..." },
+        description: "Just in the pandemic time , we realized how remote jobs can become a hero in an individual’s profile. So be on par with all the work from home opportunities you can grab just by attending this amazing event FLY ME TO THE MOON.",
+        points: ["...", "...", "..."],
+        date: "11TH FEB",
+        time: "5:00PM"
+    },
+]
+
 const Session = () => {
     return (
         <>
@@ -17,18 +71,20 @@ const Session = () => {
                 <Navbar />
                 <Hero />
                 <section className={classes.sessions}>
-                    <SessionItem heading="OpStar" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="Development and Operations are the two words that combine to form DevOps. So get ready to remove the oopsies from your development and become a devOPSTAR" points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
+                    {sessoins.map((session, index) => {
+                        return (
+                            <SessionItem
+                                key={index}
+                                heading={session.heading}
+                                speaker={session.speaker}
+                                description={session.description}
+                                points={session.points}
+                                date={session.date}
+                                time={session.time}
+                                image={session.image} />
+                        )
+                    })}
 
-                    <SessionItem heading="Stellar" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="To glorify the experience of a product by giving it an aesthetic touch is all about the UI. So make your hardwok as appealing as STELLAR in the galaxy" points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
-
-                    <SessionItem heading="Phoenix" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="Nakshatra presents this section specifically for the girl power to shine. Know it all as how women have a universe of unknown opportunities, fields and jobs where women are encouraged and aware of how women can shine and go as high as the moon.
-                    " points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
-
-                    <SessionItem heading="MAven" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="One of the two trending topics in today’s world is AI and Ml. It’s all about using human intelligence to create an artificial one. So let’s get ready to know technology of future " points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
-
-                    <SessionItem heading="CryptoNova" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="As rightfully said, CRYPTO is the future of investments yet is a world of confusions and mistakes, get it all clear and get to know about all the opportunities in this supernova of holdings." points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
-
-                    <SessionItem heading="Fly me to the moon" speaker={{ name: 'Coming Soon...', org: 'MU-GDSC', desig: "Lead" }} description="Just in the pandemic time , we realized how remote jobs can become a hero in an individual’s profile. So be on par with all the work from home opportunities you can grab just by attending this amazing event FLY ME TO THE MOON." points={["...", "...", "..."]} date="11TH FEB" time="5:00PM" />
                 </section>
             </main>
             <Footer />

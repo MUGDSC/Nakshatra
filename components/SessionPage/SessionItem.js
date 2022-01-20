@@ -1,18 +1,19 @@
 import classes from './SessionItem.module.css';
 import Fade from 'react-reveal/Fade';
 
-const SessionItem = ({ heading, speaker, description, points, date, time }) => {
+const SessionItem = ({ heading, speaker, description, points, date, time, image }) => {
     return (
         <div className={classes.session_item}>
             <Fade distance="20px" bottom duration={1000} >
                 <div className={classes.left}>
                     <div className={classes.speaker_img}>
-                        <img src="/session_head.png" alt="Astronout Head" />
+                        {image && <img src={`/speakers/${image}`} alt="Astronout Head" />}
+                        {!image && <img src="/session_head.png" alt="Astronout Head" />}
                     </div>
                     <div className={classes.speaker_details}>
                         <p className={classes.name}>{speaker.name}</p>
-                        <p className={classes.org}>{speaker.org}</p>
-                        <p className={classes.designation}>{speaker.desig}</p>
+                        <p className={classes.org}>{speaker.role1}</p>
+                        <p className={classes.designation}>{speaker.role2}</p>
                     </div>
                     <a href=""><button className={classes.btn}>Join Here</button></a>
                 </div>

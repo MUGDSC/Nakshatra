@@ -29,6 +29,7 @@
     background-color: transparent;
 }
 .speaker_img img{
+    border-radius: 50%;
  width: 100%;
 }
 
