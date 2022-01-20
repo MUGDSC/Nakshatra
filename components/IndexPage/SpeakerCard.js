@@ -4,11 +4,12 @@ const SpeakerCard = (props) => {
     return (
         <div className={classes.speaker_card}>
             <div className={classes.speaker_img}>
+                <img src={`/speakers/${props.image}`} alt={props.name} />
             </div>
             <div className={classes.speaker_about}>
                 <p className={classes.name}>{props.name}</p>
-                <p className={classes.about_1}>{props.org}</p>
-                <p className={classes.about_2}>{props.role}</p>
+                <p className={classes.about_1}>{props.role1}</p>
+                <p className={classes.about_2}>{props.role2}</p>
                 <div className={classes.speaker_links}>
                     <a href={props.linkedin} target="_blank" rel="noopener noreferrer">
                         <img src="linkedin.svg" alt={`${props.name}'s linkedin`} />

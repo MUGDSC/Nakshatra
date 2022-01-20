@@ -193,4 +193,8 @@
         width: 90%;
         height: 40rem;
     }
+    .prize_card>img {
+        position: absolute;
+        top: -4%;
+    }
 }

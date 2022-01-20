@@ -1,16 +1,50 @@
 import SpeakerCard from './SpeakerCard';
 import classes from './Speakers.module.css';
+
+const speakers = [
+    {
+        name: "Manvi Tyagi",
+        role1: "SWE @ Twitter",
+        role2: "Founder @ Girl Code It",
+        image: "manvi_tyagi.jpg",
+        linkedin: "https://www.linkedin.com/in/manvi-tyagi-108464147/",
+        twitter: "https://twitter.com/ManviTyagi9?s=20"
+    },
+    {
+        name: "Vaishnavi Dwivedi",
+        role1: "Founder & Creator",
+        role2: "MichiSpotlight",
+        image: "vaishnavi_dwivedi.jfif",
+        linkedin: "https://www.linkedin.com/in/dwvicy/",
+        twitter: " https://twitter.com/dwvicy?s=20"
+    },
+    {
+        name: "Manvi Tyagi",
+        role1: "Founder",
+        role2: "Real World Python",
+        image: "ankit_mahato.jpg",
+        linkedin: "https://www.linkedin.com/in/ankitmahato/",
+        twitter: "https://twitter.com/ankitmahato?s=20"
+    },
+]
 const Speakers = () => {
     return (
         <section className={classes.speakers} id="Speakers">
             <h2>Speakers</h2>
             <div className={classes.speakers_cards}>
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
-                <SpeakerCard name="Coming Soon..." org="MU-GDSC" role="Lead" linkedin="https://www.linkedin.com/feed/" twitter="https://twitter.com/home" />
+                {speakers.map((speaker, index) => {
+                    return (
+                        <SpeakerCard
+                            key={index}
+                            name={speaker.name}
+                            role1={speaker.role1}
+                            role2={speaker.role2}
+                            image={speaker.image}
+                            linkedin={speaker.linkedin}
+                            twitter={speaker.twitter}
+                        />
+                    )
+                })}
             </div>
         </section>
     )

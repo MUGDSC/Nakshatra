@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import classes from './Prizes.module.css';
 
 const Prizes = () => {
@@ -6,13 +7,13 @@ const Prizes = () => {
             <h2>Prizes</h2>
             <div className={classes.prizes_container}>
                 <div className={classes.prize_card}>
-                    <img src="/gold-1.png" alt="" />
+                    <Image width={100} height={100} layout="fixed" src="/gold-1.png" alt="1st Prize" />
                 </div>
                 <div className={classes.prize_card}>
-                    <img src="/silver-2.png" alt="" />
+                    <Image width={100} height={100} layout="fixed" src="/silver-2.png" alt="2nd Prize" />
                 </div>
                 <div className={classes.prize_card}>
-                    <img src="/bronze-3.png" alt="" />
+                    <Image width={100} height={100} layout="fixed" src="/bronze-3.png" alt="3rd Prize" />
                 </div>
             </div>
 

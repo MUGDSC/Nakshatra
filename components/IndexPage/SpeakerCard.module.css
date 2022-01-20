@@ -29,7 +29,9 @@
 .speaker_img{
     position: absolute;
     z-index: 1;
-    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
@@ -40,8 +42,8 @@
 .speaker_img > img{
     width: 100%;
     border-radius: 50%;
-    width: 12rem;
-    height: 12rem;
+    width: 15rem;
+    height: 15rem;
     object-fit: cover;
 }
 .speaker_about{
