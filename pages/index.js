@@ -34,7 +34,7 @@ export default function Home() {
         <Speakers />
         <Timeline />
         <Involved />
-        <CommunityPartners />
+        {/* <CommunityPartners /> */}
         <Sponsors />
         <FAQ />
         <Contact />
