@@ -19,7 +19,7 @@ const speakers = [
         twitter: " https://twitter.com/dwvicy?s=20"
     },
     {
-        name: "Manvi Tyagi",
+        name: "Ankit Mahato",
         role1: "Founder",
         role2: "Real World Python",
         image: "ankit_mahato.jpg",
