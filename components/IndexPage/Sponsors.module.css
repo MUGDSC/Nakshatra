@@ -29,7 +29,6 @@
     gap: 3rem;
 }
 .star > img{
-    color: #000;
    width: 5rem;
 }
 .sponsor_div{
@@ -101,14 +100,18 @@
 
 @media screen and (max-width:500px) {
     .sponsor_images{
-        padding: 5rem 1rem;
+        padding: 5rem 0rem;
     }
     .sponsor_images_container{
-        height: 6rem;
-     width: 16rem;
+        height: 7rem;
+     width: 17rem;
     }
     .sponsor_images  img{
-    height: 3rem;
-        border-radius: 10px;
+    height: 4rem;
+    }
+}
+@media screen and (max-width:400px) {
+    .sponsor_images_container{
+     width: 15rem;
     }
 }
