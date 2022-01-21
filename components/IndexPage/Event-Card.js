@@ -1,9 +1,14 @@
 import Link from 'next/link';
+import Button from './Button';
 import classes from './Event-Card.module.css';
-
 const EventCard = ({ img, heading, description, card, link }) => {
+
+    function newTab() {
+        let handle = window.open("https://gdsc.community.dev/e/m5dzhr/");
+        window.focus()
+    }
     return (
-        <Link href={`/${link}`}>
+        <>
             <a href="" className={classes.link}>
                 <div className={classes.card}>
                     <div className={classes.heading}>
@@ -13,9 +18,16 @@ const EventCard = ({ img, heading, description, card, link }) => {
                     <div className={classes.description}>
                         <p>{description}</p>
                     </div>
+                    <div className={classes.btn_wrapper}>
+                        <Link href={`/${link}`}>
+                            <a href={`${link}`} onClick={newTab}>
+                                <Button>Register</Button>
+                            </a>
+                        </Link>
+                    </div>
                 </div>
             </a>
-        </Link>
+        </>
     )
 }
 export default EventCard;

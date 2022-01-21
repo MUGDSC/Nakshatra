@@ -5,7 +5,7 @@
     padding: 2rem;
     border-radius: 10px;
     color: #fff;
-    min-height: 38rem;
+    min-height: 45rem;
     width: 100%;
     /* background: linear-gradient(to bottom, #FBBC04,#FDA002); */
     background: linear-gradient(179.77deg, #FBBC04 0.18%, #FBBC04 0.19%, #FF8000 99.79%, #FDA102 99.79%, #FDA002 99.79%);
@@ -35,7 +35,14 @@
     color: #fff;
     text-align: justify;
 }
-
+.description{
+    min-height: 20rem;
+}
+.btn_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (max-width:900px) {
     .card{
         /* padding:2rem  3rem; */

@@ -29,8 +29,8 @@ export default function Home() {
       <main style={{ position: "relative", zIndex: '10' }}>
         <Hero />
         <About />
-        <Prizes />
         <Events />
+        <Prizes />
         <Speakers />
         <Timeline />
         <Involved />

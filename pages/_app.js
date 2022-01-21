@@ -3,6 +3,7 @@ import NProgress from "nprogress";
 import '../styles/nprogress.css'
 import '../styles/globals.css'
 import '../styles/background.css'
+import '../styles/button.css'
 
 Router.onRouteChangeStart = url => {
   NProgress.configure({ showSpinner: false }).start()

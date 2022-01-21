@@ -15,10 +15,10 @@ const Hero = () => {
                 <Image width={500} height={300} layout="responsive" src="/nakshatra.webp" alt="Nakshatra Logo" />
             </div>
 
-            <a href="https://gdsc.community.dev/e/m5dzhr/" target="_blank" rel="noopener noreferrer">
+            <a href="#Events">
                 <Button>Register</Button>
-
             </a>
+
 
             <div className={classes.hero_year}>
                 <Image width={200} height={81} layout="responsive" src="/2022.png" alt="2022 Neon Text" />
