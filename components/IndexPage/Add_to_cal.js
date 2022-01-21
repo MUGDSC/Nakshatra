@@ -12,10 +12,10 @@ function calend(props){
            
   
   
-        <button className={classes.dropbtn}>
+        <button className={classes.dropbtn}   >
         <img src='calender.jpeg' className={classes.image}></img>
       </button>
-  
+  {props.id=="" ?"":
   <div className={classes.dropdown_content}>
             <a href={`https://www.addevent.com/event/${(props.id)}+apple`} target={"_blank"} rel="noreferrer" title="Apple" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-apple-t1.png" alt="Apple" width="35" border="0"  /><div >Apple</div></a>
             <a href={`https://www.addevent.com/event/${(props.id)}+google`} target={"_blank"} rel="noreferrer" title="Google" ><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-google-t1.png" alt="Google" width="35" border="0"  /><div>Google</div></a>
@@ -25,6 +25,7 @@ function calend(props){
             <a href={`https://www.addevent.com/event/${(props.id)}+yahoo`} target={"_blank"} rel="noreferrer" title="Yahoo"><img src="https://cdn.addevent.com/libs/imgs/icon-emd-share-yahoo-t1.png" alt="Yahoo" width="35" border="0"  /><div>Yahoo</div></a>
             
   </div>
+}
 </div>
        </div>
     )
