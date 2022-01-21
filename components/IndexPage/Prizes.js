@@ -6,7 +6,7 @@ const Prizes = () => {
                 Prizes
             </h2>
             <div className={classes.prizes_container}>
-                <p>To be revealed Soon...</p>
+                <img src="/coming_soon.png" alt="Coming soon" width={300} />
             </div>
         </section>
     )

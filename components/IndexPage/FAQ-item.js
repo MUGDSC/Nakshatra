@@ -20,7 +20,7 @@ const FAQItem = ({ question, answer, email }) => {
                     </div>
                     <p>{question}</p>
                 </div>
-                <ArrowCircleDownIcon className={classes.arrow} />
+                <ArrowCircleDownIcon className={`${classes.arrow} ${showAnswer && classes.rotate}`} />
             </div>
             {showAnswer && <Fade distance="10px" bottom duration={500} > <div className={classes.answer}>
                 <div className={classes.icons}>
