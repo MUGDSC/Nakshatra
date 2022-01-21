@@ -9,7 +9,7 @@ import Involved from "../components/IndexPage/Involved"
 import Sponsors from "../components/IndexPage/Sponsors"
 import FAQ from "../components/IndexPage/FAQ"
 import Head from "next/head"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import Contact from "../components/IndexPage/Contact"
 import Footer from "../components/IndexPage/Footer"
 import StarsBackground from "../components/UI/Stars"
@@ -18,24 +18,12 @@ import Loading from "../components/UI/Loading"
 
 export default function Home() {
   const [pageTitle, setPageTitle] = useState('Nakshatra');
-  const [showLoading, setShowLoading] = useState(true);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      setShowLoading(false);
-    }, 5500);
-
-    return (() => {
-      clearTimeout(timeout)
-    })
-  }, [])
 
   return (
     <>
       <Head>
         <title>{pageTitle}</title>
       </Head>
-      {showLoading && <Loading />}
       <StarsBackground />
       <Navbar setPageTitle={setPageTitle} />
       <main style={{ position: "relative", zIndex: '10' }}>
