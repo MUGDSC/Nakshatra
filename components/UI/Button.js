@@ -1,7 +1,7 @@
 import classes from './Button.module.css'
 export default function Button(props) {
     return (
-        <button class="btn">
+        <button className="btn">
             {props.children}
         </button>
     )
