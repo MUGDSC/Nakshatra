@@ -41,7 +41,7 @@
 
 .org, .designation {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -67,17 +67,17 @@
     font-weight: 600;
 }
 .right > p{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 2rem;
     text-align: justify;
 }
 .right ul li{
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 .time > p{
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 @media screen and (max-width:900px) {

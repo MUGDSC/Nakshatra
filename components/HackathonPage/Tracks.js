@@ -44,12 +44,14 @@ const tracks = [
 const Tracks = () => {
     return (
         <section className={classes.tracks}>
-            <h2>Tracks</h2>
-            <div className={classes.tracks_text}>
-                <p>
-                    We&apos;ve included &quot;Bring on&#40;s&#41;&quot; as samples for each category to help you come up with ideas for these tracks. If hackers have a new Bring on &#40;for the particular track&#41;, they can move along with it but remember while submitting, choose that specific track.
-                    <p> You must apply to only one of these prize tracks below and there will be only one winner for each track.</p>
-                </p>
+            <div className={classes.container}>
+                <h2>Tracks</h2>
+                <div className={classes.tracks_text}>
+                    <p>
+                        We&apos;ve included &quot;Bring on&#40;s&#41;&quot; as samples for each category to help you come up with ideas for these tracks. If hackers have a new Bring on &#40;for the particular track&#41;, they can move along with it but remember while submitting, choose that specific track.
+                        <p> You must apply to only one of these prize tracks below and there will be only one winner for each track.</p>
+                    </p>
+                </div>
             </div>
             <div className={classes.tracks_grid}>
                 {tracks.map((item, index) => { return <TrackItems key={index} title={item.title} subheading={item.subheading} points={item.points} image={item.image} /> })}

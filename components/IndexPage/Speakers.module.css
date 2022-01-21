@@ -1,3 +1,6 @@
+.speakers{
+    position: relative;
+}
 .speakers_cards{
     display: flex;
     margin-left: 1.5rem;
@@ -8,8 +11,39 @@
     -ms-overflow-style: none; /* for Internet Explorer, Edge */
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll; 
+    scroll-behavior: smooth;
+ 
 }
 .speakers_cards::-webkit-scrollbar {
     width: 0 !important;
 display: none !important;
 }
+.scroll__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: auto;
+    width: 3rem;
+    z-index: 3;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+    top:60%;
+    transform: translateY(-50%);
+    z-index: 10000;
+  }
+  .scroll__button > img{
+      width: 100%;
+  }
+  .left__button {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    left: 5%;
+  }
+  .right__button {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    right: 5%;
+  }

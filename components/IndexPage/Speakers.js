@@ -1,5 +1,6 @@
 import SpeakerCard from './SpeakerCard';
 import classes from './Speakers.module.css';
+import ScrollContainer from 'react-indiana-drag-scroll'
 
 const speakers = [
     {
@@ -60,10 +61,11 @@ const speakers = [
     },
 ]
 const Speakers = () => {
+
     return (
         <section className={classes.speakers} id="Speakers">
             <h2>Speakers</h2>
-            <div className={classes.speakers_cards}>
+            <ScrollContainer className={classes.speakers_cards} horizonta={true} vertical={false}>
                 {speakers.map((speaker, index) => {
                     return (
                         <SpeakerCard
@@ -77,7 +79,7 @@ const Speakers = () => {
                         />
                     )
                 })}
-            </div>
+            </ScrollContainer>
         </section>
     )
 }

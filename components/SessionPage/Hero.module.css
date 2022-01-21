@@ -23,7 +23,7 @@
 }
 .hero_heading p {
     text-align: right;
-    font-weight: 500;
+    font-weight: 400;
 }
 @media screen and (max-width:1100px) {
     .hero{
