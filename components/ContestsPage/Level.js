@@ -8,20 +8,20 @@ const Level = ({ title, date, time, duration, description }) => {
                     <div className={classes.card_top}>
                         <div className={classes.trophy}>
                             <img src="/contests/gold.png" alt="Gold Trophy" />
-                            <p>tshirts, goodies internship certificate</p>
+                            {/* <p>tshirts, goodies internship certificate</p> */}
                         </div>
                     </div>
                     <div className={classes.card_bottom}>
                         <div className={classes.trophy}>
                             <div className={classes.trophy}>
                                 <img src="/contests/silver.png" alt="Gold Trophy" />
-                                <p>tshirts, goodies internship certificate</p>
+                                {/* <p>tshirts, goodies internship certificate</p> */}
                             </div>
                         </div>
                         <div className={classes.trophy}>
                             <div className={classes.trophy}>
                                 <img src="/contests/bronze.png" alt="Gold Trophy" />
-                                <p>tshirts, goodies internship certificate</p>
+                                {/* <p>tshirts, goodies internship certificate</p> */}
                             </div>
                         </div>
                     </div>
