@@ -7,7 +7,7 @@ const SessionItem = ({ heading, speaker, description, points, date, time, image 
             <Fade distance="20px" bottom duration={1000} >
                 <div className={classes.left}>
                     <div className={classes.speaker_img}>
-                        {image && <img src={`/speakers/${image}`} alt="Astronout Head" />}
+                        {image && <img src={`/speakers/${image}`} alt={speaker.name} />}
                         {!image && <img src="/session_head.png" alt="Astronout Head" />}
                     </div>
                     <div className={classes.speaker_details}>

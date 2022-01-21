@@ -4,27 +4,27 @@ import classes from './Timeline.module.css';
 
 
 const day1 = [
-    { time: '4:30', speaker: 'Coming Soon...', title: 'Opening Session', },
-    { time: '5:00', speaker: 'Coming Soon...', title: 'Hackathon Announcement' },
-    { time: '5:30', speaker: 'Coming Soon...', title: 'DevOps' },
-    { time: '7:30', speaker: 'Coming Soon...', title: 'Blog Writing & Poster/Digital Art Announcement' },
-    { time: '7:30', speaker: 'Coming Soon...', title: 'Networking' },
-    { time: '8:30', speaker: 'Coming Soon...', title: 'End Of Day 1' },
-    { time: '10:00', speaker: 'Coming Soon...', title: 'Gaming Night' },];
+    { time: '4:30pm', speaker: 'Coming Soon...', title: 'Opening Session', },
+    { time: '5:00pm', speaker: 'Coming Soon...', title: 'Hackathon Announcement' },
+    { time: '5:30pm', speaker: 'Bharat S', title: 'DevOps' },
+    { time: '7:30pm', speaker: 'Coming Soon...', title: 'Blog Writing & Poster/Digital Art Announcement' },
+    { time: '7:30pm', speaker: 'Coming Soon...', title: 'Networking' },
+    { time: '8:30pm', speaker: 'Coming Soon...', title: 'End Of Day 1' },
+    { time: '10:00pm', speaker: 'Coming Soon...', title: 'Gaming Night' },];
 
 const day2 = [
-    { time: '10:30', speaker: 'Manvi Tyagi', title: "Women's Opportunity", active: true },
-    { time: '12:35', speaker: 'Coming Soon', title: 'Break' },
-    { time: '1:00', speaker: 'Coming Soon', title: 'DSA Webinar GFG' },
-    { time: '3:30', speaker: 'Vaishnavi Dwivedi', title: 'UX-UI Session' },
-    { time: '6:00', speaker: 'Coming Soon', title: 'Coding Competition' },];
+    { time: '10:30am', speaker: 'Manvi Tyagi', title: "Women's Opportunity", active: true },
+    { time: '12:35pm', speaker: 'Coming Soon', title: 'Break' },
+    { time: '1:00pm', speaker: 'Coming Soon', title: 'DSA Webinar GFG' },
+    { time: '3:30pm', speaker: 'Vaishnavi Dwivedi', title: 'UX-UI Session' },
+    { time: '6:00pm', speaker: 'Coming Soon', title: 'Coding Competition' },];
 
 const day3 = [
-    { time: '10:30', speaker: 'Ankit Mahato', title: 'AI/ML Session With Brainstorming', active: true },
-    { time: '12:30', speaker: 'Coming Soon', title: 'Break' },
-    { time: '1:30', speaker: 'Coming Soon', title: 'Crypto/Blockchain' },
-    { time: '4:00', speaker: 'Coming Soon', title: 'Internship / Remote Job Session' },
-    { time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony With Winners Announcement ' },];
+    { time: '10:30am', speaker: 'Ankit Mahato', title: 'AI/ML Session With Brainstorming', active: true },
+    { time: '12:30pm', speaker: 'Coming Soon', title: 'Break' },
+    { time: '1:30pm', speaker: 'Coming Soon', title: 'Crypto/Blockchain' },
+    { time: '4:00pm', speaker: 'Coming Soon', title: 'Internship / Remote Job Session' },
+    { time: '7:00pm', speaker: 'Coming Soon', title: 'Ending Ceremony With Winners Announcement ' },];
 
 
 const Timeline = () => {

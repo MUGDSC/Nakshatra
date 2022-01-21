@@ -8,7 +8,7 @@ const TimelineItem = ({ time, title, speaker, description }) => {
         <Fade top cascade duration={500} distance="50px" >
             <div className={classes.timeline_item}>
                 <div className={classes.time} >
-                    <p>{time} pm</p>
+                    <p>{time}</p>
                 </div>
                 <div className={classes.description}>
                     <div>
