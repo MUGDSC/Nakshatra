@@ -17,9 +17,20 @@ const Hero = () => {
             <div className={classes.area51}>
                 <h2>Area 51</h2>
                 <div className={classes.container}>
-                    <p>To test up your learned coding skills while competing with people of different calibers is the main essence of learning. Competitive coding will consist of coding rounds where people can participate according to their experience level.</p>
+                    <div className={classes.area51_text_container}>
+                        <p>To test up your learned coding skills while competing with people of different calibers is the main essence of learning. Competitive coding will consist of coding rounds where people can participate according to their experience level.</p>
+                    </div>
                     <div className={classes.ufo_img}>
                         <img src="/contests/ufo.png" alt="UFO" />
+                        <div className={classes.reg_btn}>
+                            <a href="#">
+                                <button className={classes.btn}>Registrations Opening Soon...</button>
+                            </a>
+                            <div className={classes.date_time}>
+                                <p>12th Feb</p>
+                                <p>6:00pm - 9:00pm</p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>

@@ -71,16 +71,7 @@ font-size: 2rem;
 font-weight: 500;
 }
 
-.btn {
-    padding: 0.7rem 2rem;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color:  #48ADD1;
-    font-weight: 500;
-    font-size: 2rem;
-}
+
 @media screen and (max-width:900px) {
     .level{
         max-width: 100%;

@@ -44,7 +44,18 @@ const silverSponsors = [
         image: "wolfram.png",
         alt: "Wolfram",
         link: "https://www.wolfram.com/language/"
-    }
+    },
+    {
+        image: "cognizance.png",
+        alt: "Cognizance",
+        link: "https://www.cognizance.org.in/"
+    },
+    {
+        image: "echo3d.png",
+        alt: "Echo3d",
+        link: "https://www.echo3d.co/",
+        height: "30px"
+    },
 ]
 
 const bronzeSponsors = [
@@ -52,6 +63,16 @@ const bronzeSponsors = [
         image: "jetbrains.svg",
         alt: "Jetbrains",
         link: "https://www.jetbrains.com/"
+    },
+    {
+        image: "taskade.png",
+        alt: "Taskade",
+        link: "https://www.taskade.com/"
+    },
+    {
+        image: "mule.png",
+        alt: "Sticker Mule",
+        link: "https://www.stickermule.com/en-in"
     }
 ]
 

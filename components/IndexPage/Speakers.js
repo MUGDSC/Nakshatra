@@ -26,6 +26,38 @@ const speakers = [
         linkedin: "https://www.linkedin.com/in/ankitmahato/",
         twitter: "https://twitter.com/ankitmahato?s=20"
     },
+    {
+        name: "Bharat S",
+        role1: "Cloud Engineer",
+        role2: "Deloitte",
+        image: "bharat.jfif",
+        linkedin: "https://www.linkedin.com/in/thebharaths/",
+        twitter: "https://twitter.com/TheBharathS"
+    },
+    {
+        name: "Coming Soon...",
+        role1: "Coming Soon...",
+        role2: "Coming Soon...",
+        image: "",
+        linkedin: "https://www.linkedin.com/in/",
+        twitter: "https://twitter.com/"
+    },
+    {
+        name: "Coming Soon...",
+        role1: "Coming Soon...",
+        role2: "Coming Soon...",
+        image: "",
+        linkedin: "https://www.linkedin.com/in/",
+        twitter: "https://twitter.com/"
+    },
+    {
+        name: "Coming Soon...",
+        role1: "Coming Soon...",
+        role2: "Coming Soon...",
+        image: "",
+        linkedin: "https://www.linkedin.com/in/",
+        twitter: "https://twitter.com/"
+    },
 ]
 const Speakers = () => {
     return (

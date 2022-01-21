@@ -24,6 +24,7 @@
 .card_back ul p{
    font-size:1.8rem;
     font-weight: 400;
+    text-align: justify;
 }
 
 .image {

@@ -69,6 +69,7 @@
 .right > p{
     font-weight: 500;
     font-size: 2rem;
+    text-align: justify;
 }
 .right ul li{
     font-size: 2rem;

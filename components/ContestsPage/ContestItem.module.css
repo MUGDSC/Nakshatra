@@ -2,6 +2,7 @@
     max-width: 80%;
     margin: 0 auto;
     margin-top: 20rem;
+    text-align: justify;
 }
 
 .level {
@@ -94,6 +95,7 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    max-width: 70%;
 }
 .detailSection ul li {
     font-size: 2rem;
@@ -155,6 +157,9 @@
         justify-content: center;
         align-items: center;
     }
+    .detailSection ul{
+        max-width: 80%;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -196,5 +201,8 @@
     .prize_card>img {
         position: absolute;
         top: -4%;
+    }
+    .detailSection ul{
+        max-width: 100%;
     }
 }

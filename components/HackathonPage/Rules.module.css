@@ -18,6 +18,7 @@
 .rules_container ul li{
     font-size: 1.8rem;
     font-weight: 400;
+    text-align: justify;
 }
 .rules_container ul li img{
   width: 3rem;

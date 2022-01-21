@@ -3,5 +3,13 @@
     padding: 10rem;
     min-height: 50rem;
     border-radius: 10px;
-    background: linear-gradient(to right bottom, #FE0199, rgba(215, 53, 255,0.83));
+    /* background: linear-gradient(to right bottom, #FE0199, rgba(215, 53, 255,0.83)); */
+    background-color: rgb(63, 23, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prizes_container p{
+    font-size: 5rem;
+    font-weight: 500;
 }

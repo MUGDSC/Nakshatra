@@ -4,7 +4,7 @@ const SpeakerCard = (props) => {
     return (
         <div className={classes.speaker_card}>
             <div className={classes.speaker_img}>
-                <img src={`/speakers/${props.image}`} alt={props.name} />
+                {props.image && <img src={`/speakers/${props.image}`} alt={props.name} />}
             </div>
             <div className={classes.speaker_about}>
                 <p className={classes.name}>{props.name}</p>

@@ -18,7 +18,7 @@
     font-size: 1.8rem;
     font-weight: 500;
     max-width: 100rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .area51 {
@@ -36,16 +36,45 @@
 .container p {
     max-width: 60%;
     font-weight: 500;
-    text-align: left;
+    text-align: justify;
 }
 
 .ufo_img {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     position: absolute;
     right: 0;
     top: -20rem;
+}
+
+.reg_btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #43a4c7;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.date_time {
+    padding: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .ufo_img img {

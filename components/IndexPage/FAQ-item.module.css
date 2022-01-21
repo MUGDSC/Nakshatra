@@ -39,6 +39,7 @@ transform: scale(1.5)  !important;
     align-items:flex-start;
     gap: 1.5rem;
     justify-content: flex-start;
+    text-align: justify;
 }
 
 @media screen and (max-width:900px) {

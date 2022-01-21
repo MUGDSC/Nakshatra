@@ -37,4 +37,5 @@ border-top-right-radius: 35px;
 }
 .card_details p{
 font-weight: 400;
+text-align: justify;
 }
