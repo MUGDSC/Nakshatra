@@ -43,7 +43,7 @@ export default function Contests() {
                         duration="1 hour" />
 
                     <ContestItem title="CallistO"
-                        description="Writing up the technical content is the perfect combination in the field of study, and is a fabulous way of sharing the accumulated knowledge by giving it a theoretical perspective with an interesting touch.  (concluding line missing)"
+                        description="Writing up the technical content is the perfect combination in the field of study, and is a fabulous way of sharing the accumulated knowledge by giving it a theoretical perspective with an interesting touch."
                         topics={["Coming Soon"]}
                         image="writing.png"
                         prize1="book1.png"
