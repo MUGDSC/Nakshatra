@@ -35,10 +35,7 @@ a,a:visited,a:link,a:active{
   text-decoration: none;
   transition: 0.3s ease all;
 }
-a:hover{
-  color: #fff;
-  text-shadow:0 0 15px #fff,    0 0 22px #fff;
-}
+
 section, footer{
   padding: 5rem;
   display: flex;

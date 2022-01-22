@@ -1,4 +1,5 @@
 import classes from './Hero.module.css';
+import Button from '../UI/Button';
 
 const Hero = () => {
     return (<>
@@ -7,7 +8,7 @@ const Hero = () => {
                 Contests
             </h1>
             <div>
-                <p>
+                <p className={classes.hero_text}>
                     Competitions are always the best platforms to showcase talent and skills and work upon the fresh ideas brewing in mind. Competing with the best escalates the confidence level up and revamp our quest for learning new ideologies.
                     And to blow up the competitive spirits, there are exciting prizes for every competition.
                 </p>
@@ -18,16 +19,14 @@ const Hero = () => {
                 <h2>Area 51</h2>
                 <div className={classes.container}>
                     <div className={classes.area51_text_container}>
-                        <p>To test up your learned coding skills while competing with people of different calibers is the main essence of learning. Competitive coding will consist of coding rounds where people can participate according to their experience level.</p>
+                        <p className={classes.area_text}>To test up your learned coding skills while competing with people of different calibers is the main essence of learning. Competitive coding will consist of coding rounds where people can participate according to their experience level.</p>
                     </div>
                     <div className={classes.ufo_img}>
                         <img src="/contests/ufo.png" alt="UFO" />
                         <div className={classes.reg_btn}>
-                            <a href="#" aria-disabled>
-                                <button className={classes.btn}>
-                                    Registrations Opening Soon...
-                                </button>
-                            </a>
+                            <Button link="#">
+                                Registrations Opening Soon
+                            </Button>
                             <div className={classes.date_time}>
                                 <p>12th Feb</p>
                                 <p>6:00pm - 8:00pm</p>

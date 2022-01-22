@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import classes from './ContestItem.module.css';
+import Button from '../UI/Button';
 
 const ContestItem = ({ title, description, image, topics, guidelines, prize1, prize2, link, disqualified, date, time }) => {
     return (
@@ -15,7 +16,9 @@ const ContestItem = ({ title, description, image, topics, guidelines, prize1, pr
                         <p>{date}</p>
                     </div>
                     <div className={classes.btn_wrapper}>
-                        <a href={link} target="_blank" rel="noopener noreferrer"><button className={classes.btn}>Register</button></a>
+                        <Button link={link} blank={true} rel={true}>
+                            Register
+                        </Button>
                     </div>
                 </div>
                 <div className={classes.card_container}>

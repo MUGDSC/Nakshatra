@@ -17,11 +17,11 @@ const EventCard = ({ img, heading, description, chapterPageRedirect, link }) => 
                 <div className={classes.btn_wrapper}>
                     <Link href={`/${link}`}>
                         <a href={`${link}`}>
-                            <Button>Register</Button>
+                            <Button link={link}> Register</Button>
                         </a>
                     </Link>
                 </div>
-            </div>
+            </div >
 
         </>
     )

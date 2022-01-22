@@ -8,20 +8,13 @@
     gap: 5rem;
     min-height: 100vh;
 }
-.hero a:hover{
-    text-shadow: none !important;
-    box-shadow: none !important;
-    color: inherit !important;
-    cursor: not-allowed;
-    pointer-events: none;
-}
 
 .hero h1 {
     font-size: 5rem;
     font-weight: 500;
 }
 
-.hero p {
+.hero .hero_text {
     font-size: 1.8rem;
     font-weight: 400;
     max-width: 100rem;
@@ -40,7 +33,7 @@
     position: relative;
 }
 
-.container p {
+.container .area_text {
     max-width: 60%;
     font-weight: 400;
     text-align: justify;
@@ -120,7 +113,7 @@
         padding-top: 15rem;
     }
 
-    .container p {
+    .container .area_text {
         max-width: 100%;
         font-weight: 500;
     }
