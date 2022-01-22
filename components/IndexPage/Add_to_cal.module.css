@@ -2,7 +2,6 @@
     background-color: #fff;
     color:var(--purple);
     padding: 0.8rem 2rem;
-    margin-right:5rem ;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     border-radius: 5px;
@@ -73,7 +72,7 @@
    border-radius: 5px;
     text-decoration: none;
     display: block;
-    float: left;
+    float: right;
   }
   .dropdown_content a div {
     border-radius: 5px;

@@ -38,7 +38,13 @@
     }
 }
 @media screen and (max-width:600px) {
+    .timeline_container{
+        margin-left: -2rem;
+    }
     .dates > p:first-child{
         margin-left: 4rem;
+    }
+    .timeline_items{
+        width: 90vw;
     }
 }

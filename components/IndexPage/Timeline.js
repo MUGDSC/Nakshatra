@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CalendarModal from './CalendarModal';
 import TimelineItem from './Timeline-item';
 import classes from './Timeline.module.css';
 
@@ -48,7 +49,6 @@ const Timeline = () => {
                     {activeDate === 2 && day2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd} />)}
                     {activeDate === 3 && day3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd} />)}
                 </div>
-
             </div>
         </section>
     )
