@@ -23,12 +23,14 @@ const Hero = () => {
                     <div className={classes.ufo_img}>
                         <img src="/contests/ufo.png" alt="UFO" />
                         <div className={classes.reg_btn}>
-                            <a href="#">
-                                <button className={classes.btn}>Registrations Opening Soon...</button>
+                            <a href="#" aria-disabled>
+                                <button className={classes.btn}>
+                                    Registrations Opening Soon...
+                                </button>
                             </a>
                             <div className={classes.date_time}>
                                 <p>12th Feb</p>
-                                <p>6:00pm - 9:00pm</p>
+                                <p>6:00pm - 8:00pm</p>
                             </div>
                         </div>
                     </div>

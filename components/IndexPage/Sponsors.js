@@ -16,7 +16,12 @@ const goldSponsors = [
         image: "gfg.png",
         alt: "Geeks For Geeks",
         link: "https://www.geeksforgeeks.org/"
-    }
+    },
+    {
+        image: "wolfram.png",
+        alt: "Wolfram",
+        link: "https://www.wolfram.com/language/"
+    },
 ]
 
 const silverSponsors = [
@@ -39,11 +44,6 @@ const silverSponsors = [
         image: "gmc.png",
         alt: "GMC",
         link: "https://givemycertificate.com/"
-    },
-    {
-        image: "wolfram.png",
-        alt: "Wolfram",
-        link: "https://www.wolfram.com/language/"
     },
     {
         image: "cognizance.png",

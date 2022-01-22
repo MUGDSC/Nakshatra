@@ -6,7 +6,7 @@ const tracks = [
         title: "Physical Well-Being",
         subheading: "Technology has evolved, so should Health. Build something to modernize Well Being.",
         points: ["Build a code to optimize the exercise routine by observing the body landmarks using the default device camera.", "Inspire individuals to create nutritious, enjoyable cuisine at home with the supplies provided, while also keeping track of their eating habits."],
-        image: ""
+        image: "physical.png"
     },
     {
         title: "Indian Wisdom",

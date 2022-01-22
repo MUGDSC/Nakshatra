@@ -17,7 +17,7 @@ let mentors = [
   }, {
     image: "RitikTailor",
     name: "Ritik Tailor",
-    designation: "Designation"
+    designation: "Technical Head"
   }
 ]
 

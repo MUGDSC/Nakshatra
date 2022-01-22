@@ -15,7 +15,7 @@ const SessionItem = ({ heading, speaker, description, points, date, time, image 
                         <p className={classes.org}>{speaker.role1}</p>
                         <p className={classes.designation}>{speaker.role2}</p>
                     </div>
-                    <a href=""><button className={classes.btn}>Join Here</button></a>
+                    {/* <a href=""><button disabled className={classes.btn}>Join Here</button></a> */}
                 </div>
             </Fade>
 
@@ -25,17 +25,17 @@ const SessionItem = ({ heading, speaker, description, points, date, time, image 
                     <p>{description}</p>
                 </Fade>
                 <ul>
-                    <Fade distance="5px" bottom delay={100}>
+                    {/* <Fade distance="5px" bottom delay={100}>
                         {points.map((item, index) => <li key={index}>{item}</li>)}
-                    </Fade>
+                    </Fade> */}
                     {/* <li>Blah</li>
                     <li>Blah</li>
                 <li>Blah</li> */}
                 </ul>
                 <div className={classes.time}>
                     <Fade distance="5px" bottom delay={100}>
-                        <p>{date}</p>
                         <p>{time}</p>
+                        <p>{date}</p>
                     </Fade>
                 </div>
             </div>

@@ -11,8 +11,8 @@ const ContestItem = ({ title, description, image, topics, guidelines, prize1, pr
                         <p className={classes.subheading}>{description}</p>
                     </div>
                     <div className={classes.detail_bottom}>
-                        <p>{date}</p>
                         <p>{time}</p>
+                        <p>{date}</p>
                     </div>
                     <div className={classes.btn_wrapper}>
                         <a href={link} target="_blank" rel="noopener noreferrer"><button className={classes.btn}>Register</button></a>
@@ -26,7 +26,7 @@ const ContestItem = ({ title, description, image, topics, guidelines, prize1, pr
             </div>
             <div className={classes.contestDetails}>
                 <div className={classes.detailSection}>
-                    <h2>Themes</h2>
+                    <h2>Theme</h2>
                     <ul>
                         {topics.map((item, index) => <li key={index}>{item}</li>)}
                     </ul>

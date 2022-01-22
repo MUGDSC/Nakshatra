@@ -67,7 +67,7 @@ const Footer = () => {
             </footer >
             <div className={classes.footer_text}>
                 <p> <span>Copyright © 2022 All rights reserved</span><span className={classes.bar}> | </span><span>MU-GDSC Team ❤️</span></p>
-                <p>🔴 Terms &#38; Conditions</p>
+                {/* <p>🔴 Terms &#38; Conditions</p> */}
             </div>
         </>
 
