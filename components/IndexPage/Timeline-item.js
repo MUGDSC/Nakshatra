@@ -15,13 +15,12 @@ const TimelineItem = ({ time, title, speaker, idd, am }) => {
                         <p >{title}</p>
                         {speaker && <p>{speaker}</p>}
                     </div>
-                    {/* <img src="/add-event.png" alt="Add to calendar" className={classes.add} /> */}
                     <div className={classes.addto}>
-                    <ADD_to_cal id={idd} />
+                        {/* <ADD_to_cal id={idd} /> */}
                     </div>
-                    
+
                 </div>
-                
+
             </div>
 
         </Fade>

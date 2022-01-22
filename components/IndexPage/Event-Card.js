@@ -1,9 +1,12 @@
 import Link from 'next/link';
 import Button from './Button';
 import classes from './Event-Card.module.css';
-const EventCard = ({ img, heading, description, card, link }) => {
+const EventCard = ({ img, heading, description, chapterPageRedirect, link }) => {
 
     function newTab() {
+        if (!chapterPageRedirect) {
+            return;
+        }
         let handle = window.open("https://gdsc.community.dev/e/m5dzhr/");
         window.focus()
     }
