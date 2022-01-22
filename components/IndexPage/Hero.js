@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
 
             <a href="#Events">
-                <Button>Register</Button>
+                <Button>Swipe Down</Button>
             </a>
 
 
