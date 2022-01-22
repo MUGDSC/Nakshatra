@@ -4,26 +4,26 @@ import classes from './Timeline.module.css';
 
 
 const day1 = [
-    { time: '4:30', speaker: null, title: 'Nakshatra - Opening Session', idd: "Bb11510073" },
-    { time: '5:00', speaker: null, title: 'Hakosphere - The Global Hackathon', idd: "oF11510097" },
-    { time: '5:30', speaker: 'Bharath S', title: 'OpStar - Session on DevOps', idd: "JA11510103" },
-    { time: '7:30', speaker: null, title: 'CallistO - Blog Writing Competition', idd: "JQ11510123" },
-    { time: '7:30', speaker: null, title: 'Kalpana - Poster/Digital Art Competition', idd: "wa11514041" },
-    { time: '10:00', speaker: null, title: 'Gaming Night', idd: "" }];
+    { time: '4:30', speaker: 'Coming Soon...', title: 'Nakshatra - Opening Session', idd:"Bb11510073" },
+    { time: '5:00', speaker: 'Coming Soon...', title: 'Hakosphere - The Global Hackathon', idd:"oF11510097" },
+    { time: '5:30', speaker: 'Bharath S', title: 'OpStar - Session on DevOps',idd:"JA11510103" },
+    { time: '7:30', speaker: 'Coming Soon...', title: 'CallistO - Blog Writing Competition',idd:"JQ11510123" },
+    { time: '7:30', speaker: 'Coming Soon...', title: 'Kalpana - Poster/Digital Art Competition',idd:"wa11514041" },
+    { time: '10:00', speaker: 'Coming Soon...', title: 'Gaming Night' ,idd:""}];
 
 const day2 = [
-    { time: '10:30', speaker: 'Manvi Tyagi', title: "Phoenix - Session on Women's Opportunities", active: true, idd: "Nf11510131", am: true },
-
-    { time: '1:00', speaker: null, title: 'DSA Webinar GFG', idd: "BK11510142" },
-    { time: '3:30', speaker: 'Vaishnavi Dwivedi', title: 'Stellar - Session On UI-UX', idd: "fJ11510147" },
-    { time: '6:00', speaker: null, title: 'Area51 - Coding Competition', idd: "PH11510153" }];
+    { time: '10:30', speaker: 'Manvi Tyagi', title: "Phoenix - Session on Women's Opportunities",active: true , idd:"Nf11510131",  am:true },
+ 
+    { time: '1:00', speaker: 'Coming Soon', title: 'DSA Webinar GFG' , idd:"BK11510142"},
+    { time: '3:30', speaker: 'Vaishnavi Dwivedi', title: 'Stellar - Session On UI-UX', idd:"fJ11510147"},
+   { time: '6:00', speaker: 'Coming Soon', title: 'Area51 - Coding Competition',idd:"PH11510153" }];
 
 const day3 = [
-    { time: '10:30', speaker: 'Ankit Mahato', title: 'MAven - Session on AI/ML', active: true, idd: "Fb11510167", am: true },
-
-    { time: '1:30', speaker: null, title: 'CryptoNova - Session on Cryptocurrency/Blockchain', idd: "tX11510171" },
-    { time: '4:00', speaker: null, title: 'Fly me to the moon- Session On Internship / Remote Jobs', idd: "Sk11510183" },
-    { time: '7:00', speaker: null, title: 'Ending Ceremony Of Nakshatra', idd: "uJ11510362" }];
+    { time: '10:30', speaker: 'Ankit Mahato', title: 'MAven - Session on AI/ML', active: true ,idd:"Fb11510167",am:true },
+  
+    { time: '1:30', speaker: 'Coming Soon', title: 'CryptoNova - Session on Cryptocurrency / Blockchain', idd:"tX11510171" },
+    { time: '4:00', speaker: 'Coming Soon', title: 'Fly me to the moon- Session On Internship / Remote Jobs' ,idd:"Sk11510183" },
+    { time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony Of Nakshatra' ,idd:"uJ11510362"}];
 
 const Timeline = () => {
     const [activeDate, setActiveDate] = useState(1);
@@ -48,7 +48,7 @@ const Timeline = () => {
                 <div className={classes.timeline_items}>
                     {activeDate === 1 && day1.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd} />)}
                     {activeDate === 2 && day2.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd} />)}
-                    {activeDate === 3 && day3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd} />)}
+                    {activeDate === 3 && day3.map((item, i) => <TimelineItem key={i} time={item.time} speaker={item.speaker} title={item.title} active={item.active} am={item.am} idd={item.idd}/>)}
                 </div>
 
             </div>
