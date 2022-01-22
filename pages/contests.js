@@ -15,7 +15,8 @@ export default function Contests() {
                 <title>Contests</title>
             </Head>
             <StarsBackground />
-            <div style={{ background: "linear-gradient(180deg, rgba(255, 128, 0, 0.84) 0%, #FF8000 0.01%, rgba(254, 1, 153, 0.33) 100%)" }}>
+            {/* <div style={{ background: "linear-gradient(180deg, rgba(255, 128, 0, 0.84) 0%, #FF8000 0.01%, rgba(254, 1, 153, 0.33) 100%)" }}> */}
+            <div>
                 <Navbar />
                 <main style={{ position: 'relative', zIndex: 2 }}>
                     <Hero />

@@ -1,7 +1,7 @@
 .contestItem {
     max-width: 80%;
     margin: 0 auto;
-    margin-top: 20rem;
+    /* margin-top: 10rem; */
     text-align: justify;
 }
 
@@ -165,7 +165,7 @@
 @media screen and (max-width:600px) {
     .contestItem {
         max-width: 100%;
-        margin-top: 15rem;
+        /* margin-top: 15rem; */
     }
 
     .card_container {
