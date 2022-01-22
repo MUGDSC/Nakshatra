@@ -12,7 +12,7 @@ const day1 = [
     { time: '10:00', speaker: '', title: 'Gaming Night' ,idd:""}];
 
 const day2 = [
-    { time: '10:30', speaker: '', title: "Phoenix - Session on Women's Opportunities",active: true , idd:"Nf11510131",  am:true },
+    { time: '10:30', speaker: '', title: "Phoenix - Session on Women In Tech",active: true , idd:"Nf11510131",  am:true },
  
     { time: '1:00', speaker: '', title: 'DSA Webinar GFG' , idd:"BK11510142"},
     { time: '3:30', speaker: '', title: 'Stellar - Session On UI-UX', idd:"fJ11510147"},
