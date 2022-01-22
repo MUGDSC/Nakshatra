@@ -21,7 +21,7 @@ const day2 = [
 const day3 = [
     { time: '10:30', speaker: 'Ankit Mahato', title: 'MAven - Session on AI/ML', active: true ,idd:"Fb11510167",am:true },
   
-    { time: '1:30', speaker: 'Coming Soon', title: 'CryptoNova - Session on Cryptocurrency/Blockchain', idd:"tX11510171" },
+    { time: '1:30', speaker: 'Coming Soon', title: 'CryptoNova - Session on Cryptocurrency / Blockchain', idd:"tX11510171" },
     { time: '4:00', speaker: 'Coming Soon', title: 'Fly me to the moon- Session On Internship / Remote Jobs' ,idd:"Sk11510183" },
     { time: '7:00', speaker: 'Coming Soon', title: 'Ending Ceremony Of Nakshatra' ,idd:"uJ11510362"}];
 
