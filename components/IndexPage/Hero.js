@@ -21,10 +21,16 @@ const Hero = () => {
                 <Image width={500} height={300} layout="responsive" src="/nakshatra.webp" alt="Nakshatra Logo" />
             </div>
 
+<<<<<<< HEAD
 
             {showModal && <RegisterButtons onClose={removeModal} />}
             <Button onClick={() => setShowModal(true)}>Register</Button>
 
+=======
+            <a href="#Events">
+                <Button>Swipe Down</Button>
+            </a>
+>>>>>>> d38c13bde9b39bdcb9a2b76f2d0a647b9f9167ff
 
 
             <div className={classes.hero_year}>
