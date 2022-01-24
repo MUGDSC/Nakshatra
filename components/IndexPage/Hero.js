@@ -1,8 +1,14 @@
 import classes from './Hero.module.css';
 import Image from 'next/image';
 import Button from './Button';
+import RegisterButtons from './RegisterButtons';
+import { useState } from 'react';
 
 const Hero = () => {
+    const [showModal, setShowModal] = useState(false);
+    function removeModal() {
+        setShowModal(false);
+    }
     return (
         <section className={classes.hero} id="Home">
 
@@ -15,9 +21,10 @@ const Hero = () => {
                 <Image width={500} height={300} layout="responsive" src="/nakshatra.webp" alt="Nakshatra Logo" />
             </div>
 
-            <a href="#Events">
-                <Button>Register</Button>
-            </a>
+
+            {showModal && <RegisterButtons onClose={removeModal} />}
+            <Button onClick={() => setShowModal(true)}>Register</Button>
+
 
 
             <div className={classes.hero_year}>

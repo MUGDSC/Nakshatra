@@ -8,7 +8,11 @@ export default function Modal(props) {
             <>
                 <div className={classes.overlay}>
                 </div>
-                <div className={classes.modal}>
+                <div className={`${classes.modal}`}
+                    style={{
+                        top: `${props.top && props.top}`,
+                        transform: "translate(-50%,-50%)"
+                    }}>
                     {props.children}
                 </div>
             </>,
